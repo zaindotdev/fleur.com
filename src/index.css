@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Fleur;
+  src: url(../public/Fleur.otf);
+}
+@font-face {
+  font-family: Fleur-Bold;
+  src: url(../public/Fleur\ Bold.otf);
+}
+@font-face {
+  font-family: Fleur-Display;
+  src: url(../public/Fleur\ Display.otf);
+}
+@font-face {
+  font-family: Fleur-Inline;
+  src: url(../public/Fleur\ Inline.otf);
+}
+* {
+  background-color: #dcdcdc;
+  font-family: "Poppins";
+}
+.nav {
+  font-family: Fleur;
+}
+
